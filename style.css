@@ -387,6 +387,7 @@ transform: rotate(360deg);
     }
     .project-svg{
         width: 83%;
+        height: 210px;
         margin-bottom: 20px;
     }
     #project,#skills{
