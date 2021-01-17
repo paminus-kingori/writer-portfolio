@@ -387,6 +387,9 @@ transform: rotate(360deg);
     .project-svg{
         width: 83%;
     }
+    #contact{
+        margin: 0.5rem 0;
+    }
     .pro-image{
         height: 150px;
     }
