@@ -354,10 +354,10 @@ transform: rotate(360deg);
         font-size: 18px;
     }
     main{
-        padding: 0.5rem;
+        padding: 10px;
     }
     header{
-        padding: 1rem 0;
+        padding: 20px 0;
     }
     nav{
         width: 100%;
@@ -377,7 +377,7 @@ transform: rotate(360deg);
         text-align: center;
     }
     .right-wing{
-        padding: 3rem;
+        padding: 50px;
         overflow-x: hidden;
     }
     .right-right{
@@ -387,6 +387,7 @@ transform: rotate(360deg);
     }
     .project-svg{
         width: 83%;
+        margin-bottom: 20px;
     }
     #project,#skills{
         margin-bottom: 30px;
@@ -401,7 +402,7 @@ transform: rotate(360deg);
         height: 300px;
     }
     .landing{
-        margin: 0rem 0 30px;
+        margin: 0 0 30px;
     }
     .single-skill{
         margin:5px;
