@@ -291,6 +291,7 @@ width:max-content;
 }
 .send img{
     width:30px;
+    height: 30px;
 }
 
 footer{
@@ -387,8 +388,11 @@ transform: rotate(360deg);
     .project-svg{
         width: 83%;
     }
+    #project,#skills{
+        margin-bottom: 30px;
+    }
     #contact{
-        margin: 0.5rem 0;
+        margin: 20px 0;
     }
     .pro-image{
         height: 150px;
@@ -397,7 +401,7 @@ transform: rotate(360deg);
         height: 300px;
     }
     .landing{
-        margin: 0rem 0 2rem;
+        margin: 0rem 0 30px;
     }
     .single-skill{
         margin:5px;
