@@ -300,10 +300,21 @@
         <script>
 
     gsap.registerPlugin(ScrollTrigger);
-            // gsap.to("#big,#small",{
-            //     rotate:360,
-            //     duration:2
-            // })
+            gsap.to("#big",{
+                rotation:360,
+                transformOrigin: "center 55%",
+                ease:Linear.easeNone,
+                repeat:-1,
+                duration:3
+               
+            })
+            gsap.to("#small",{
+                rotation:-360,
+                transformOrigin: "center 40%",
+                ease:Linear.easeNone,
+                repeat:-1,
+                duration:3
+            })
         gsap.from("#chat1 , #chat2, #chat3",{
             scale:0,
             stagger: -0.4,
