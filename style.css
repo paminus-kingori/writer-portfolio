@@ -105,7 +105,7 @@ nav a:last-child{
 }
 .skill-title strong{
     font-size: 25px;
-    color: #E84949;
+    color: #de161c;
 }
 #skills{
     display: flex;
@@ -337,11 +337,11 @@ padding:2.5rem 0;
 /* svg animations  */
 
 #big{
-animation: spin 9s linear infinite;
+/* animation: spin 9s linear infinite; */
 transform-origin: 30.5% 39.5%;
 }
 #small{
-animation: spin 6s linear reverse infinite;
+/* animation: spin 6s linear reverse infinite; */
 transform-origin: 72.3% 69.5%;
 }
 @keyframes spin{
