@@ -1,9 +1,11 @@
 @import url('https://fonts.googleapis.com/css2?family=Be+Vietnam&display=swap');
 
+
+
 *{
     box-sizing: border-box;
     font-family: 'Be Vietnam', sans-serif;
-    color: #838383;
+    color:#5f5f5f;
     scroll-behavior: smooth;
 }
 body{
@@ -18,6 +20,7 @@ header{
 nav{
 display: flex;
 place-items: center;
+align-items: center;
 }
 nav a{
     text-decoration: none;
@@ -124,9 +127,9 @@ nav a:last-child{
     width:max-content;
     height: max-content;
     position: relative;
-    background-image: url("images/hexagon.svg");
+    /* background-image: url("images/hexagon.svg"); */
     background-size: cover;
-    padding: 30px;
+    padding: 10px;
     /* box-sizing: border-box; */
 }
 .single-skill{
@@ -139,6 +142,7 @@ nav a:last-child{
 .skill-image{
     width: 60px;
     height: 60px;
+    object-fit: cover;
 }
 .skill-name{
     font-weight: 500;
@@ -183,7 +187,7 @@ nav a:last-child{
     right: -3px;
     bottom: -3px;
     z-index: -1;
-    background:linear-gradient(235deg,#0D54BE,#20ECD3);
+    background: linear-gradient(265deg,#0066ff,#17ad9a);
 }
 .pro-image{
     object-fit:cover;
@@ -200,7 +204,7 @@ height: 229px;
     left: 0;
     right: 0;
     height: 229px;
-    background-color: #070707af;
+    /* background-color: #070707af; */
     /* display: flex; */
     align-items: center;
     justify-content: center;
@@ -215,6 +219,8 @@ height: 229px;
     border-radius: 30px;
     display: flex;
     align-items: center;
+    background-color: #070707af;
+
 }
 .pro-text{
     line-height: 25px;
@@ -346,6 +352,46 @@ transform-origin: 72.3% 69.5%;
 transform: rotate(360deg);
     }
 }
+
+/* Styles for users who prefer dark mode at the OS level */
+
+
+@media (prefers-color-scheme: dark) {
+    /* defaults to dark theme */
+    *{
+        color: #bdbdbd;  
+    }
+    .name strong{
+        color: #bdbdbd;  
+
+    }
+    body { 
+        background: #090a1b;
+    }
+    nav a strong {
+        color: #bdbdbd;
+    }
+    .pro-container{
+        background: #030413;
+    }
+    .email , .message{
+        background: #030413;
+        box-shadow: 2px 1px 4px 0px rgb(0 0 0 / 54%), 0px 0px 4px 0px rgb(0 0 0 / 54%);
+    }
+    .email:active{
+        background: #070a27;
+    }
+    .user-image, .pro-image{
+        filter: brightness(0.8) contrast(1.1);
+    }
+    .hire{
+        background: #bd3232;
+    }
+    .send{
+        background: #3930bf;
+    }
+}
+
 
 
 /* responsiveness  */
