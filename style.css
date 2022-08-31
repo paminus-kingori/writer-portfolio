@@ -538,6 +538,13 @@ transform: rotate(360deg);
 }
 
 @media only screen and (max-width: 703px){
+.about{
+    padding: 0px 16px;
+    justify-content:center;
+}
+.about-title{
+    margin-top: 20px;
+}
 nav{
     display: none;
 }
@@ -650,5 +657,6 @@ header:hover nav{
     }
     footer{
         flex-direction: column;
+        margin-top: 2rem;
     }
 }
