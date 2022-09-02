@@ -39,7 +39,7 @@ nav a{
     text-decoration: none;
     font-size: 14px;
     margin: 2px 12px;
-
+    font-weight: 700;
 }
 nav a:hover{
     color: var(--red);
@@ -239,6 +239,7 @@ margin:0 10px;
 .pro-container small{
     text-align:right;
     width: 90%;
+    font-size: 12px;
 }
 .pro-image{
     object-fit:cover;
@@ -279,14 +280,16 @@ height: 202px;
     margin: 0;
     width: 100%;
     padding: 0 10px;
+    font-size: 1em;
 }
 .pro-container .read{
-    border: 1px solid #000;
     padding: 6px 12px;
-    color: black;
     font-size: 14px;
-    border-radius: 6px;
-    margin-top: 20px;
+    /* border-radius: 6px; */
+    /* margin-top: unset; */
+    border: unset;
+    color: #4f47c8;
+    font-weight: 700;
 }
 .pro-text{
     margin: 0;
@@ -540,7 +543,7 @@ transform: rotate(360deg);
 
 @media only screen and (max-width: 703px){
 .about{
-    padding: 0px 16px;
+    padding: 0px 12px;
     justify-content:center;
 }
 .about-title{
@@ -570,7 +573,8 @@ header:hover nav{
         padding: 20px 0;
     }
     .landing{
-        margin: 10px 0 50px;
+        margin: 10px 0 40px;
+        padding: 0 12px;
     }
     nav{
         width: 100%;
@@ -606,16 +610,24 @@ header:hover nav{
     }
     #project,#skills{
         margin-bottom: 30px;
-        padding: 0 30px;
+        padding: 0 20px;
+    }
+    #articles {
+      
+        padding: 24px 12px;
     }
     #contact{
         margin: 20px 0;
     }
     .pro-image{
-        height: 150px;
+        height: 90px;
     }
     .pro-container{
         /* height: 300px; */
+        grid-gap: 4px;
+    }
+    .pro-text{
+        -webkit-line-clamp: 2;
     }
     .landing{
         margin: 0 0 50px;
